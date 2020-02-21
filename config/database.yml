@@ -83,3 +83,6 @@ production:
   database: dummy_production
   username: dummy
   password: <%= ENV['DUMMY_DATABASE_PASSWORD'] %>
+  host: localhost
+  username: deployer
+  password: testing
